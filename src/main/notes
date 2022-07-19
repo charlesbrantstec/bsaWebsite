@@ -1,0 +1,20 @@
+
+Do we want any user to sign up?
+    Yes - Open to malicious signing up (unlikely/can be avoided with DB user limit)
+    No - Only admins could sign up users, send out invite codes (more complicated)
+
+Do we want to only let users sign up with an authorized code?
+
+Do we want users to have a username and email?
+    email is more practical in place of username
+    email is readily on file and already associated with clients and used by bsa for contacting clients
+
+Do we want a signup confirmation sent to their email address?
+
+Do we want to pre sign up clients?
+
+*** SIMPLEST SOLUTION ***
+
+Let anybody sign up, have db limit of 300?, send confirmation email
+confirmation email serves 2 purposes: validating correct email & notifying users that are pre-signed up by admins
+

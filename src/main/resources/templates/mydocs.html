@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="partials/head :: head (title='Business Solutions Assessoria Inc')">
+    <div th:replace="partials/links :: links"></div>
+</head>
+
+<body>
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-none d-lg-flex align-items-center fixed-top bg-success">
+    <div class="container d-flex">
+        <div class="contact-info me-auto">
+            <i class="icofont-envelope"></i> <a href="mailto:info@bsassessoria.com">info@bsassessoria.com</a>
+            <i class="icofont-phone"></i> 215-725-5990
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/businesssolutionsassessoriainc/" class="facebook"><i class="icofont-facebook"></i></a>
+        </div>
+    </div>
+</div>
+
+<header id="header1" class="fixed-top w-25"><div class="container d-flex align-items-center"></div></header>
+
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top" style="padding:3px;">
+    <div class="container d-flex align-items-center">
+
+        <a href="shmindex.html" class="me-auto">
+            <img th:src="@{/images/BSA_LOGO_EDIT (1).jpg}" style="padding-top:0px;height:80px;">
+        </a>
+        <!--      <a href="#about" class="logo me-auto btn-get-started scrollto">Get Started</a>-->
+
+
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li class="active"><a href="new.html">Home</a></li>
+                <li style="padding-bottom: 0px !important;">
+                    <a>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 form-inline" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </a>
+                </li>
+            </ul>
+        </nav><!-- .nav-menu -->
+
+    </div>
+</header><!-- End Header -->
+
+
+
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<script>
+    var eles = document.getElementById('leftbar').children;
+    for (var i = 0, len = allElements.length; i < len; i++){
+        var element = allElements[i];
+
+    }
+</script>
+
+<div th:replace="partials/scripts :: scripts"></div>
+
+</body>
+
+</html>
